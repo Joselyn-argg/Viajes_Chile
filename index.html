@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Viajes Chile</title>
+    <!--Sirve para que sea responsivo--> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--css botstrap 4.6.0-->     
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"> 
+    <!--Tipografia de google fonts--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <!--Font awasome--> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet"> 
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!--Mi Css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
+        <a class="navbar-brand" href="#"><img class="icono p-1" src="assets/img/viajes.svg" alt="Logo">Viajes Chile</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#">Inicio</a>
+            <a class="nav-link" href="#">Quienes somos</a>
+            <a class="nav-link" href="#">Desatcados</a>
+            <a class="nav-link" href="#">Contacto</a>
+          </div>
+        </div>
+    </nav>
+    <!--Carrusel-->
+    <div id="Carrusel" class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Alpacas">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="Moais">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Pinguinos">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+    <!--Quienes somos-->
+    <div>
+        <div class="bg-dark text-white">
+            <div class="container">
+                <h2 class="border-bottom border-info text-a text-center p-3">¿Quienes somos?</h2>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <i class="fas fa-plane fa-2x bg-info p-3 mb-2 width-auto"></i>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam cum doloribus nemo facere veniam, ab vel perspiciatis ducimus deleniti sint beatae. Eveniet corporis harum quidem at impedit, consectetur voluptas est modi rerum distinctio quisquam animi laboriosam tempore suscipit vitae hic esse quas pariatur aliquid magnam delectus. Minima facilis, molestiae perferendis ab fugiat nobis corrupti inventore cupiditate, aperiam eius sed illo?
+                        </p>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam cum doloribus nemo facere veniam, ab vel perspiciatis ducimus deleniti sint beatae. Eveniet corporis harum quidem at impedit, consectetur voluptas est modi rerum distinctio quisquam animi laboriosam tempore suscipit vitae hic esse quas pariatur aliquid magnam delectus. Minima facilis, molestiae perferendis ab fugiat nobis corrupti inventore cupiditate, aperiam eius sed illo?
+                        </p>
+                        <i class="fas fa-mountain fa-2x bg-info"></i>
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+                    <i class="fas fa-route fa-2x bg-info"></i>
+                    <div>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam cum doloribus nemo facere veniam, ab vel perspiciatis ducimus deleniti sint beatae. Eveniet corporis harum quidem at impedit, consectetur voluptas est modi rerum distinctio quisquam animi laboriosam tempore suscipit vitae hic esse quas pariatur aliquid magnam delectus. Minima facilis, molestiae perferendis ab fugiat nobis corrupti inventore cupiditate, aperiam eius sed illo?
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <!--Card--> 
+        <div class="bg-dark">
+              <h2 class=" text-white border-bottom border-info text-a text-center p-3">Destacados</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/img/card1.jpg" alt="Lago">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/img/card2.jpg" alt="Montain">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/img/card3.jpg" alt="Desierto">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                        <div class="card-body">
+                            <img class="img-fluid" src="assets/img/card4.jpg" alt="Bosque">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        
+            <!-- <div class="card-deck bg-dark text-white" style="width: auto;">
+               
+                <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                <div class="card-body">
+                    <img class="img-fluid" src="assets/img/card2.jpg" alt="Montañas">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                </div>
+                </div>
+                <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                    <div class="card-body">
+                    <img class="img-fluid" src="assets/img/card3.jpg" alt="Desierto">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                </div>
+                </div>
+                <div class="card text-white bg-info mb-3 border border-light rounded bg">
+                    <div class="card-body">
+                    <img class="img-fluid" src="assets/img/card4.jpg" alt="Bosque">
+                    <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur labore accusamus vel minus nihil necessitatibus odio laudantium eos facilis iusto dignissimos, laborum quam nobis fugit, deserunt voluptatum dicta! Cumque, quas!</p>
+                </div>
+                </div>
+            </div> -->
+        </div>
+            <!--Formulario contacto-->
+            <div class="contain p-5 bg-dark text-white">
+                <h2 class="border-bottom border-info text-a text-center p-3">Contacto</h2>
+                <div data-tf-widget="lnR130KX" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+            </div>
+    </div>
+    <!--Footer-->
+    <footer class="contain p-5 bg-info text-white">
+        VIAJES CHILE
+        <a href="https://github.com"><i class="fab fa-github-square fa-3x"></i></a>
+        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x"></i></a>
+        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x"></i></a>
+        <a href="https://www.facebook.com"><i class="fab fa-facebook fa-3x"></i></a>
+    </footer>
+
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Popper js-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!--bostrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
