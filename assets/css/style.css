@@ -1,7 +1,11 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .icono{
     width: 3rem;
 }
 
-#Carrusel{
-    height: 15rem;
+#carouselExampleControls{
+    height: 15rem;   
 }
