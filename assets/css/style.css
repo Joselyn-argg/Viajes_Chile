@@ -9,3 +9,7 @@ body {
 #carouselExampleControls{
     height: 15rem;   
 }
+
+.fab {
+    color : white;
+}
